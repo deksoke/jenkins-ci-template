@@ -35,7 +35,7 @@ namespace MyWindowsService
         {
             try
             {
-                File.AppendAllLines("c:\\MyWindowsService.log.txt", lines);
+                File.AppendAllLines("c:\\MyWindowsService1.log.txt", lines);
             }
             catch (Exception ex)
             {
